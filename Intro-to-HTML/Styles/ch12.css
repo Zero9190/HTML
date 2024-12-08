@@ -1,0 +1,140 @@
+div {
+    font-family: Arial;
+}
+
+.e12 {
+    width: 300px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200,200,200);
+    border-radius: 6px;
+
+}
+
+.e12-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.num {
+    color: white;
+    background-color: rgb(49, 109, 245);
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: bold
+}
+
+
+.f12 {
+    display: flex;
+    background-color: rgb(120, 82, 178);
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 15;
+    padding-right: 15;
+}
+
+.f12-1 {
+    color:white;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.f12-input {
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+
+.download-btn {
+    color: white;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: white;
+    background-color: rgb(120, 82, 178);
+    margin-right: 12px;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.g1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 15px;;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.info {
+    width: 200px;
+}
+
+.name {
+
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.status{
+ color: rgb(150, 150, 150);
+ margin-bottom: 5px;
+}
+
+.rate {
+ color: rgb(150, 150, 150);
+ font-size: 14px;
+}
+
+.follow-btn {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:rgb(29, 155, 240);
+    border: none;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,85 @@
+.f-name, .f-name1{
+    width: 148px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.email{
+    width: 333px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.sign{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(137, 98, 231);
+    border:  none;
+    width: 366px;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    
+}
+
+p {
+    font-size: 30px;
+    font-family: arial;
+}
+
+.pickup, .des{
+    font: 16px;
+    width: 300px;
+    display: block;
+    background-color: rgba(128, 128, 128, 0.105);
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 10px;
+
+}
+
+.req {
+    font: 16px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.sche {
+    font: 16px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.105);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 20px;
+}

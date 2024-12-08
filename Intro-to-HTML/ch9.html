@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CH 9</title>
+        <style>
+
+            .cat {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 25px;
+                margin-right: 5px;
+                vertical-align: middle;
+                
+            }
+
+            .text-1 {
+                width: 300px;
+                color: gray;
+                font-size: 18px;
+                font-family: Arial;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .tweet{
+                background-color: rgb(29, 155, 240);
+                color: white;
+                border: none;
+                border-radius: 18px;
+                font-weight: bold;
+                font-size: 15px;
+                cursor: pointer;
+                margin-left: 8px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 16px;
+                padding-right: 16px;
+                transition: box-shadow 0.15s;
+                vertical-align: middle;
+            }
+
+            .ch9e {
+                width: 450px;
+                border-radius: 6px;
+                box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+            p {
+                font-family: Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .oliver {
+                width: 200px;
+                box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+            }
+
+
+            
+
+            .cat-2 {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                margin-bottom: 12px;
+            }
+
+            .name {
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 8px;
+                margin-bottom: 4px;
+            }
+
+            .mutual {
+                color: rgb(100, 100, 100);
+                margin-left: 8px;
+                margin-bottom: 12px;
+            }
+
+            .add {
+                color: white;
+                background-color: rgb(24, 119, 242);
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-left: 8px;
+                margin-bottom: 12px;
+            }
+
+            .tr,
+            .rd,
+            .gh {
+                box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+            }
+
+            .grid {
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 20px;
+                align-items: center;
+            }
+
+            
+
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="ch9e">
+            <img class="cat" src="cat.jpg">
+            <p class="text-1">What's happening?</p>
+            <button class="tweet">Tweet</button>
+        </div>
+        <br>
+        
+        <br>
+        <div class="oliver">
+            <img class="cat-2" src="cat.jpg">
+            <p class="name">Oliver</p>
+            <p class="mutual">2 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        <br>
+        <div class="grid">
+            <div class="tr">
+                <img class="cat-2" src="troy.png">
+                <p class="name">Troy</p>
+                <p class="mutual">2 mutual friends</p>
+                <button class="add">Add Friend</button>
+            </div>
+
+            <div class="rd">
+                <img class="cat-2" src="rold.jpg">
+                <p class="name">Rold</p>
+                <p class="mutual">2 mutual friends</p>
+                <button class="add">Add Friend</button>
+            </div>
+
+            <div class="gh">
+                <img class="cat-2" src="gherald.jpg">
+                <p class="name">Gherald</p>
+                <p class="mutual">2 mutual friends</p>
+                <button class="add">Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>

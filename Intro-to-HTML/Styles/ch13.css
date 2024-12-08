@@ -1,0 +1,145 @@
+div {
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.25);
+    padding-top:  10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+
+.h1 {
+    font-size: 14px;
+    color: rgb(243, 136, 5);
+    margin-bottom: 12px;
+}
+
+.h2 {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    margin-right: 10px;
+}
+
+.user-profile-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.email{
+    flex: 1;
+}
+
+.email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.email-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.time {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+.email-subject {
+    font-weight: bold;
+    margin-bottom: 5px
+}
+
+.email-message {
+    color: rgb(120, 120, 120);
+}
+
+
+.flex-box {
+    display: flex;
+    width: 420px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.user-profile-picture {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.post-content {
+    flex: 1;
+}
+
+.user-header {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-right: 5px;
+    
+}
+
+.username {
+    color: rgb(120, 120, 120);
+}
+
+.post-description {
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.video-link-header {
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-radius: 15px;
+    overflow: hidden;
+    
+
+}
+
+.video-thumbnail {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220, 220, 220);
+    margin-right: 10px;
+}
+
+.video-info {
+    flex:  1;
+}
+
+.video-platform {
+    color: rgb(111, 111, 111);
+    margin-bottom: 5px;
+}
+
+.video-title {
+    line-height: 22px;
+}
