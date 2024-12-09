@@ -12,10 +12,7 @@ div{
     right: 0;
     height: 60px;
     background-color: rgb(45, 37, 50);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 50px;
+    padding: 5px 50px 5px 15px;
 }
 
 .left {
